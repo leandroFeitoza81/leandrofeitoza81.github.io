@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Leandro Feitoza — Desenvolvedor Back-End](docs/banner.svg)
 
-## Available Scripts
+[![GitHub](https://img.shields.io/badge/GitHub-LeandroFeitozaGnu-181717?style=for-the-badge&logo=github)](https://github.com/LeandroFeitozaGnu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-leandrofeitoza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrofeitoza)
+[![Site](https://img.shields.io/badge/Site-leandrofeitozagnu.github.io-61DAFB?style=for-the-badge&logo=react&logoColor=282c34)](https://leandrofeitozagnu.github.io)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## 👋 Olá, eu sou o Leandro
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Desenvolvedor **Back-End** na **Webmotors** desde 2021. Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web: estudei na Trybe, concluí o curso Full-Stack e, desde então, deixei de trabalhar com JavaScript e Node e migrei para o **C#**.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧰 O que eu domino
 
-### `npm test`
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⭐ Projetos que mais gosto
 
-### `npm run build`
+- [**yake-shave**](https://github.com/LeandroFeitozaGnu/yake-shave)
+- [**webapi-default**](https://github.com/LeandroFeitozaGnu/webapi-default)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖥️ O site
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este repositório é o código do meu site pessoal: **https://leandrofeitozagnu.github.io**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
 
-### `npm run eject`
+<img src="docs/screenshot-desktop.png" alt="Site no desktop" width="640">
+&nbsp;
+<img src="docs/screenshot-mobile.png" alt="Site no celular" width="190">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</div>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O site tem as seções **Home**, **Sobre**, **Skills**, **Trajetória**, **Projetos** e **Contato**, é responsivo e usa a foto de perfil do meu GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🧭 Trajetória
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```text
+Suporte Técnico ──▶ 2020: Trybe (Full-Stack) ──▶ Migração para C# ──▶ 2021 até hoje: Back-End na Webmotors
+```
 
-## Learn More
+## 🛠️ Feito com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![React](https://img.shields.io/badge/React-17-61DAFB?style=flat-square&logo=react&logoColor=282c34)
+![Material-UI](https://img.shields.io/badge/Material--UI-4-007FFF?style=flat-square&logo=mui&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Rodando localmente
 
-### Code Splitting
+```bash
+git clone https://github.com/LeandroFeitozaGnu/leandrofeitozagnu.github.io.git
+cd leandrofeitozagnu.github.io
+yarn install
+yarn start      # http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Outros comandos: `yarn build` (build de produção) e `yarn test`.
 
-### Analyzing the Bundle Size
+> O projeto usa `react-scripts` 4, que funciona com **Node 16**. Em versões mais novas do Node o build falha.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 Publicação
 
-### Making a Progressive Web App
+A cada push na branch `master`, o workflow [`deploy.yml`](.github/workflows/deploy.yml) gera o build e publica no GitHub Pages. Para isso, em **Settings → Pages**, a opção **Source** precisa estar como **GitHub Actions**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📫 Contato
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@LeandroFeitozaGnu](https://github.com/LeandroFeitozaGnu)
+- LinkedIn: [/in/leandrofeitoza](https://www.linkedin.com/in/leandrofeitoza)
