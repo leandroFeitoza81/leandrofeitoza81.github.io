@@ -10,9 +10,20 @@
 
 ## 👋 Olá, eu sou o Leandro
 
-Desenvolvedor Front-End Júnior. Depois de uma larga experiência profissional como **Suporte Técnico**, em 2020 resolvi mudar para a área de desenvolvimento Web. Em junho de 2020 comecei a estudar na **Trybe** e, em dezembro de 2020, me formei como Desenvolvedor Front-End Júnior.
+Desenvolvedor **Back-End** na **Webmotors** desde 2021. Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web: estudei na Trybe, concluí o curso Full-Stack e, desde então, deixei de trabalhar com JavaScript e Node e migrei para o **C#**.
 
-Procuro uma oportunidade de iniciar a carreira de desenvolvedor e continuar aperfeiçoando as minhas habilidades de Dev.
+## 🧰 O que eu domino
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+## ⭐ Projetos que mais gosto
+
+- [**yake-shave**](https://github.com/LeandroFeitozaGnu/yake-shave)
+- [**webapi-default**](https://github.com/LeandroFeitozaGnu/webapi-default)
 
 ## 🖥️ O site
 
@@ -26,12 +37,12 @@ Este repositório é o código do meu site pessoal: **https://leandrofeitozagnu.
 
 </div>
 
-O site tem as seções **Home**, **Sobre**, **Trajetória**, **Projetos** e **Contato**, é responsivo e usa a foto de perfil do meu GitHub.
+O site tem as seções **Home**, **Sobre**, **Skills**, **Trajetória**, **Projetos** e **Contato**, é responsivo e usa a foto de perfil do meu GitHub.
 
 ## 🧭 Trajetória
 
 ```text
-Suporte Técnico ──▶ 2020: virada para Web ──▶ Jun/2020: Trybe ──▶ Dez/2020: Front-End Júnior ──▶ 2021: rumo ao Full-Stack
+Suporte Técnico ──▶ 2020: Trybe (Full-Stack) ──▶ Migração para C# ──▶ 2021 até hoje: Back-End na Webmotors
 ```
 
 ## 🛠️ Feito com

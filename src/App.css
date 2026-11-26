@@ -320,3 +320,7 @@ section {
     text-align: left;
   }
 }
+
+.skill-icon {
+  color: var(--accent);
+}

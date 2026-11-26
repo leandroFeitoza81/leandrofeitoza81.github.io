@@ -6,6 +6,8 @@ import SupportIcon from '@material-ui/icons/HeadsetMic';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 import StorageIcon from '@material-ui/icons/Storage';
+import CloudIcon from '@material-ui/icons/Cloud';
+import DatabaseIcon from '@material-ui/icons/Dns';
 
 import './App.css';
 
@@ -16,6 +18,7 @@ const LINKEDIN_URL = 'https://www.linkedin.com/in/leandrofeitoza';
 const NAV = [
   { href: '#home', label: 'Home' },
   { href: '#sobre', label: 'Sobre' },
+  { href: '#skills', label: 'Skills' },
   { href: '#trajetoria', label: 'Trajetória' },
   { href: '#projetos', label: 'Projetos' },
   { href: '#contato', label: 'Contato' },
@@ -28,28 +31,29 @@ const TIMELINE = [
     text: 'Larga experiência profissional na área de suporte técnico.',
   },
   {
-    icon: <CodeIcon />,
-    title: '2020 · A virada para o desenvolvimento Web',
-    text: 'Decidi mudar de área e começar a construir uma carreira como desenvolvedor.',
+    icon: <SchoolIcon />,
+    title: '2020 · Virada para o desenvolvimento Web',
+    text: 'Em junho de 2020 comecei a estudar desenvolvimento web na Trybe e concluí o curso Full-Stack.',
   },
   {
-    icon: <SchoolIcon />,
-    title: 'Junho de 2020 · Início na Trybe',
-    text: 'Comecei a estudar desenvolvimento web na Trybe.',
+    icon: <CodeIcon />,
+    title: 'Migração para C# e .NET',
+    text: 'Deixei de trabalhar com JavaScript e Node e migrei para o desenvolvimento Back-End com C#.',
   },
   {
     icon: <WorkIcon />,
-    title: 'Dezembro de 2020 · Desenvolvedor Front-End Júnior',
-    text: 'Concluí a formação como Desenvolvedor Front-End Júnior.',
-  },
-  {
-    icon: <StorageIcon />,
-    title: '2021 · Rumo ao Full-Stack',
-    text: 'Planejei estudar Back-End e Ciência da Computação para me formar como desenvolvedor Full-Stack.',
+    title: 'Desde 2021 · Desenvolvedor Back-End na Webmotors',
+    text: 'Trabalho com desenvolvimento Back-End em C# e .NET, bancos relacionais e cloud AWS.',
   },
 ];
 
-const BUILT_WITH = ['React', 'Material-UI', 'CSS', 'GitHub Pages'];
+const SKILLS = [
+  { icon: <StorageIcon />, title: 'Back-End', items: ['C#', '.NET'] },
+  { icon: <CloudIcon />, title: 'Cloud', items: ['AWS'] },
+  { icon: <DatabaseIcon />, title: 'Bancos relacionais', items: ['SQL Server', 'PostgreSQL'] },
+];
+
+const PROJECTS = ['yake-shave', 'webapi-default'];
 
 function Avatar() {
   const [failed, setFailed] = useState(false);
@@ -87,7 +91,7 @@ function App() {
           <Avatar />
           <h3>{'<Hello World />'}</h3>
           <h1>Me chamo Leandro</h1>
-          <h2>sou desenvolvedor Front-End Júnior</h2>
+          <h2>sou desenvolvedor Back-End na Webmotors</h2>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#projetos">Ver projetos</a>
             <a className="btn" href="#contato">Entre em contato</a>
@@ -98,17 +102,31 @@ function App() {
           <h2 className="section-title">Sobre mim</h2>
           <div className="wraper-text-sobre">
             <p>
-              Seja bem-vindo ao meu site pessoal. Fique à vontade para explorar e conhecer a seção Projetos, onde você confere o que desenvolvi, e a seção Sobre, para que me conheça um pouco mais.
+              Seja bem-vindo ao meu site pessoal. Fique à vontade para explorar meus projetos e conhecer um pouco mais da minha trajetória.
             </p>
             <p>
-              Depois de uma larga experiência profissional como Suporte Técnico, no ano de 2020 resolvi mudar para a área de desenvolvimento Web.
+              Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web. Comecei a estudar na Trybe em junho de 2020 e concluí o curso Full-Stack.
             </p>
             <p>
-              Em junho de 2020 comecei a estudar desenvolvimento web na Trybe e, em dezembro de 2020, me formei como Desenvolvedor Front-End Júnior.
+              Desde então deixei de trabalhar com JavaScript e Node e migrei para o C#. Desde 2021 atuo como desenvolvedor Back-End na Webmotors, com C# e .NET, bancos relacionais (SQL Server e PostgreSQL) e cloud AWS.
             </p>
-            <p>
-              Procuro uma oportunidade de iniciar a carreira de desenvolvedor e continuar aperfeiçoando as minhas habilidades de Dev.
-            </p>
+          </div>
+        </section>
+
+        <section id="skills" className="section-skills">
+          <h2 className="section-title">O que eu domino</h2>
+          <div className="cards">
+            {SKILLS.map(({ icon, title, items }) => (
+              <article key={title} className="card">
+                <span className="skill-icon">{icon}</span>
+                <h3>{title}</h3>
+                <ul className="tags">
+                  {items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
           </div>
         </section>
 
@@ -130,18 +148,15 @@ function App() {
         <section id="projetos" className="section-projetos">
           <h2 className="section-title">Projetos</h2>
           <div className="cards">
-            <article className="card">
-              <h3>Este site</h3>
-              <p>Meu site pessoal, feito com React e Material-UI e publicado no GitHub Pages.</p>
-              <ul className="tags">
-                {BUILT_WITH.map((tag) => (
-                  <li key={tag}>{tag}</li>
-                ))}
-              </ul>
-              <a className="card-link" href={`${GITHUB_URL}/${GITHUB_USER.toLowerCase()}.github.io`} target="_blank" rel="noreferrer">
-                Ver código
-              </a>
-            </article>
+            {PROJECTS.map((name) => (
+              <article key={name} className="card">
+                <h3>{name}</h3>
+                <p>Repositório no GitHub.</p>
+                <a className="card-link" href={`${GITHUB_URL}/${name}`} target="_blank" rel="noreferrer">
+                  Ver código
+                </a>
+              </article>
+            ))}
             <article className="card card-more">
               <h3>Mais projetos</h3>
               <p>Os demais projetos que desenvolvi estão no meu GitHub.</p>
