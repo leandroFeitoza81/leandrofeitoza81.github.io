@@ -1,6 +1,6 @@
 <div align="center">
 
-![Leandro Feitoza — Desenvolvedor Front-End Júnior](docs/banner.svg)
+![Leandro Feitoza — Desenvolvedor Back-End](docs/banner.svg)
 
 [![GitHub](https://img.shields.io/badge/GitHub-LeandroFeitozaGnu-181717?style=for-the-badge&logo=github)](https://github.com/LeandroFeitozaGnu)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-leandrofeitoza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrofeitoza)
