@@ -47,8 +47,8 @@ Suporte Técnico ──▶ 2020: curso Full-Stack ──▶ Migração para C# �
 
 ## 🛠️ Feito com
 
-![React](https://img.shields.io/badge/React-17-61DAFB?style=flat-square&logo=react&logoColor=282c34)
-![Material-UI](https://img.shields.io/badge/Material--UI-4-007FFF?style=flat-square&logo=mui&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=282c34)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white)
 
@@ -57,13 +57,13 @@ Suporte Técnico ──▶ 2020: curso Full-Stack ──▶ Migração para C# �
 ```bash
 git clone https://github.com/leandroFeitoza81/leandrofeitoza81.github.io.git
 cd leandrofeitoza81.github.io
-yarn install
-yarn start      # http://localhost:3000
+npm install
+npm run dev     # http://localhost:5173
 ```
 
-Outros comandos: `yarn build` (build de produção) e `yarn test`.
+Outros comandos: `npm run build` (build de produção em `dist/`), `npm run preview` e `npm test`.
 
-> O projeto usa `react-scripts` 4, que funciona com **Node 16**. Em versões mais novas do Node o build falha.
+> Requer Node 20.19 ou mais novo (o `.nvmrc` indica o 24).
 
 ## 📦 Publicação
 

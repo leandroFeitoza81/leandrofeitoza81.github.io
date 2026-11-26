@@ -1,13 +1,6 @@
 import { useState } from 'react';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import CodeIcon from '@material-ui/icons/Code';
-import SupportIcon from '@material-ui/icons/HeadsetMic';
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
-import StorageIcon from '@material-ui/icons/Storage';
-import CloudIcon from '@material-ui/icons/Cloud';
-import DatabaseIcon from '@material-ui/icons/Dns';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdCloud, MdCode, MdDns, MdHeadsetMic, MdSchool, MdStorage, MdWork } from 'react-icons/md';
 
 import './App.css';
 
@@ -26,31 +19,31 @@ const NAV = [
 
 const TIMELINE = [
   {
-    icon: <SupportIcon />,
+    icon: <MdHeadsetMic />,
     title: 'Suporte Técnico',
     text: 'Larga experiência profissional na área de suporte técnico.',
   },
   {
-    icon: <SchoolIcon />,
+    icon: <MdSchool />,
     title: '2020 · Virada para o desenvolvimento Web',
     text: 'Em junho de 2020 comecei a estudar desenvolvimento web e concluí o curso Full-Stack.',
   },
   {
-    icon: <CodeIcon />,
+    icon: <MdCode />,
     title: 'Migração para C# e .NET',
     text: 'Deixei de trabalhar com JavaScript e Node e migrei para o desenvolvimento Back-End com C#.',
   },
   {
-    icon: <WorkIcon />,
+    icon: <MdWork />,
     title: 'Desde 2021 · Desenvolvedor Back-End na Webmotors',
     text: 'Trabalho com desenvolvimento Back-End em C# e .NET, bancos relacionais e cloud AWS.',
   },
 ];
 
 const SKILLS = [
-  { icon: <StorageIcon />, title: 'Back-End', items: ['C#', '.NET'] },
-  { icon: <CloudIcon />, title: 'Cloud', items: ['AWS'] },
-  { icon: <DatabaseIcon />, title: 'Bancos relacionais', items: ['SQL Server', 'PostgreSQL'] },
+  { icon: <MdStorage />, title: 'Back-End', items: ['C#', '.NET'] },
+  { icon: <MdCloud />, title: 'Cloud', items: ['AWS'] },
+  { icon: <MdDns />, title: 'Bancos relacionais', items: ['SQL Server', 'PostgreSQL'] },
 ];
 
 const PROJECTS = ['yake-shave', 'webapi-default'];
@@ -171,11 +164,11 @@ function App() {
           <h2 className="section-title">Entre em contato</h2>
           <div className="wraper-links-contato">
             <a href={GITHUB_URL} target="_blank" rel="noreferrer" aria-label="GitHub">
-              <GitHubIcon fontSize="large" />
+              <FaGithub />
               <span>GitHub</span>
             </a>
             <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <LinkedInIcon fontSize="large" />
+              <FaLinkedin />
               <span>LinkedIn</span>
             </a>
           </div>
