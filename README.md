@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Leandro Feitoza — Desenvolvedor Front-End Júnior](docs/banner.svg)
 
-## Available Scripts
+[![GitHub](https://img.shields.io/badge/GitHub-LeandroFeitozaGnu-181717?style=for-the-badge&logo=github)](https://github.com/LeandroFeitozaGnu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-leandrofeitoza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrofeitoza)
+[![Site](https://img.shields.io/badge/Site-leandrofeitozagnu.github.io-61DAFB?style=for-the-badge&logo=react&logoColor=282c34)](https://leandrofeitozagnu.github.io)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## 👋 Olá, eu sou o Leandro
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Desenvolvedor Front-End Júnior. Depois de uma larga experiência profissional como **Suporte Técnico**, em 2020 resolvi mudar para a área de desenvolvimento Web. Em junho de 2020 comecei a estudar na **Trybe** e, em dezembro de 2020, me formei como Desenvolvedor Front-End Júnior.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Procuro uma oportunidade de iniciar a carreira de desenvolvedor e continuar aperfeiçoando as minhas habilidades de Dev.
 
-### `npm test`
+## 🖥️ O site
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este repositório é o código do meu site pessoal: **https://leandrofeitozagnu.github.io**
 
-### `npm run build`
+<div align="center">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="docs/screenshot-desktop.png" alt="Site no desktop" width="640">
+&nbsp;
+<img src="docs/screenshot-mobile.png" alt="Site no celular" width="190">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O site tem as seções **Home**, **Sobre**, **Trajetória**, **Projetos** e **Contato**, é responsivo e usa a foto de perfil do meu GitHub.
 
-### `npm run eject`
+## 🧭 Trajetória
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```text
+Suporte Técnico ──▶ 2020: virada para Web ──▶ Jun/2020: Trybe ──▶ Dez/2020: Front-End Júnior ──▶ 2021: rumo ao Full-Stack
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Feito com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![React](https://img.shields.io/badge/React-17-61DAFB?style=flat-square&logo=react&logoColor=282c34)
+![Material-UI](https://img.shields.io/badge/Material--UI-4-007FFF?style=flat-square&logo=mui&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 Rodando localmente
 
-## Learn More
+```bash
+git clone https://github.com/LeandroFeitozaGnu/leandrofeitozagnu.github.io.git
+cd leandrofeitozagnu.github.io
+yarn install
+yarn start      # http://localhost:3000
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Outros comandos: `yarn build` (build de produção) e `yarn test`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> O projeto usa `react-scripts` 4, que funciona com **Node 16**. Em versões mais novas do Node o build falha.
 
-### Code Splitting
+## 📦 Publicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A cada push na branch `master`, o workflow [`deploy.yml`](.github/workflows/deploy.yml) gera o build e publica no GitHub Pages. Para isso, em **Settings → Pages**, a opção **Source** precisa estar como **GitHub Actions**.
 
-### Analyzing the Bundle Size
+## 📫 Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@LeandroFeitozaGnu](https://github.com/LeandroFeitozaGnu)
+- LinkedIn: [/in/leandrofeitoza](https://www.linkedin.com/in/leandrofeitoza)
