@@ -2,15 +2,15 @@
 
 ![Leandro Feitoza — Desenvolvedor Back-End](docs/banner.svg)
 
-[![GitHub](https://img.shields.io/badge/GitHub-LeandroFeitozaGnu-181717?style=for-the-badge&logo=github)](https://github.com/LeandroFeitozaGnu)
+[![GitHub](https://img.shields.io/badge/GitHub-leandroFeitoza81-181717?style=for-the-badge&logo=github)](https://github.com/leandroFeitoza81)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-leandrofeitoza-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrofeitoza)
-[![Site](https://img.shields.io/badge/Site-leandrofeitozagnu.github.io-61DAFB?style=for-the-badge&logo=react&logoColor=282c34)](https://leandrofeitozagnu.github.io)
+[![Site](https://img.shields.io/badge/Site-leandrofeitoza81.github.io-61DAFB?style=for-the-badge&logo=react&logoColor=282c34)](https://leandrofeitoza81.github.io)
 
 </div>
 
 ## 👋 Olá, eu sou o Leandro
 
-Desenvolvedor **Back-End** na **Webmotors** desde 2021. Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web: estudei na Trybe, concluí o curso Full-Stack e, desde então, deixei de trabalhar com JavaScript e Node e migrei para o **C#**.
+Desenvolvedor **Back-End** na **Webmotors** desde 2021. Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web: concluí o curso Full-Stack e, desde então, deixei de trabalhar com JavaScript e Node e migrei para o **C#**.
 
 ## 🧰 O que eu domino
 
@@ -22,12 +22,12 @@ Desenvolvedor **Back-End** na **Webmotors** desde 2021. Depois de uma larga expe
 
 ## ⭐ Projetos que mais gosto
 
-- [**yake-shave**](https://github.com/LeandroFeitozaGnu/yake-shave)
-- [**webapi-default**](https://github.com/LeandroFeitozaGnu/webapi-default)
+- [**yake-shave**](https://github.com/leandroFeitoza81/yake-shave)
+- [**webapi-default**](https://github.com/leandroFeitoza81/webapi-default)
 
 ## 🖥️ O site
 
-Este repositório é o código do meu site pessoal: **https://leandrofeitozagnu.github.io**
+Este repositório é o código do meu site pessoal: **https://leandrofeitoza81.github.io**
 
 <div align="center">
 
@@ -42,7 +42,7 @@ O site tem as seções **Home**, **Sobre**, **Skills**, **Trajetória**, **Proje
 ## 🧭 Trajetória
 
 ```text
-Suporte Técnico ──▶ 2020: Trybe (Full-Stack) ──▶ Migração para C# ──▶ 2021 até hoje: Back-End na Webmotors
+Suporte Técnico ──▶ 2020: curso Full-Stack ──▶ Migração para C# ──▶ 2021 até hoje: Back-End na Webmotors
 ```
 
 ## 🛠️ Feito com
@@ -55,8 +55,8 @@ Suporte Técnico ──▶ 2020: Trybe (Full-Stack) ──▶ Migração para C#
 ## 🚀 Rodando localmente
 
 ```bash
-git clone https://github.com/LeandroFeitozaGnu/leandrofeitozagnu.github.io.git
-cd leandrofeitozagnu.github.io
+git clone https://github.com/leandroFeitoza81/leandrofeitoza81.github.io.git
+cd leandrofeitoza81.github.io
 yarn install
 yarn start      # http://localhost:3000
 ```
@@ -71,5 +71,5 @@ A cada push na branch `master`, o workflow [`deploy.yml`](.github/workflows/depl
 
 ## 📫 Contato
 
-- GitHub: [@LeandroFeitozaGnu](https://github.com/LeandroFeitozaGnu)
+- GitHub: [@leandroFeitoza81](https://github.com/leandroFeitoza81)
 - LinkedIn: [/in/leandrofeitoza](https://www.linkedin.com/in/leandrofeitoza)
