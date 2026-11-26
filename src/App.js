@@ -11,7 +11,7 @@ import DatabaseIcon from '@material-ui/icons/Dns';
 
 import './App.css';
 
-const GITHUB_USER = 'LeandroFeitozaGnu';
+const GITHUB_USER = 'leandroFeitoza81';
 const GITHUB_URL = `https://github.com/${GITHUB_USER}`;
 const LINKEDIN_URL = 'https://www.linkedin.com/in/leandrofeitoza';
 
@@ -33,7 +33,7 @@ const TIMELINE = [
   {
     icon: <SchoolIcon />,
     title: '2020 · Virada para o desenvolvimento Web',
-    text: 'Em junho de 2020 comecei a estudar desenvolvimento web na Trybe e concluí o curso Full-Stack.',
+    text: 'Em junho de 2020 comecei a estudar desenvolvimento web e concluí o curso Full-Stack.',
   },
   {
     icon: <CodeIcon />,
@@ -105,7 +105,7 @@ function App() {
               Seja bem-vindo ao meu site pessoal. Fique à vontade para explorar meus projetos e conhecer um pouco mais da minha trajetória.
             </p>
             <p>
-              Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web. Comecei a estudar na Trybe em junho de 2020 e concluí o curso Full-Stack.
+              Depois de uma larga experiência profissional como Suporte Técnico, em 2020 resolvi mudar para a área de desenvolvimento Web. Comecei a estudar em junho de 2020 e concluí o curso Full-Stack.
             </p>
             <p>
               Desde então deixei de trabalhar com JavaScript e Node e migrei para o C#. Desde 2021 atuo como desenvolvedor Back-End na Webmotors, com C# e .NET, bancos relacionais (SQL Server e PostgreSQL) e cloud AWS.
